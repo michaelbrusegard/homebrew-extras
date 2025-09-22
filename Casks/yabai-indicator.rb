@@ -7,7 +7,5 @@ cask "yabai-indicator" do
   desc "macOS menubar applet for the yabai tiling window manager"
   homepage "https://github.com/xiamaz/YabaiIndicator"
 
-  depends_on formula: "yabai"
-
   app "YabaiIndicator-#{version}/YabaiIndicator.app"
 end
